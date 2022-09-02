@@ -2,3 +2,8 @@
     border: 1px solid black !important;
     
 }
+
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
