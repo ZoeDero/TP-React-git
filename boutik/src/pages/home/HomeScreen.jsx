@@ -19,7 +19,7 @@ const HomeScreen = () => {
 
     return (
         <div>
-            <h1 className='text-center'>La boutique de DEROZIER Zoé</h1>
+            <h1 className='text-center bg-dark text-light pb-1 '>La boutique de DEROZIER Zoé</h1>
             {/* <div className='d-flex'>
             <CategoryCard title={"Homme"} image={"./images/imghomme.jpg"} description={"La mode pour les hommes"}/>
             <CategoryCard title={"Femme"} image={"../images/imgFemme.jfif"} description={"La mode pour les Femmes"}/> */}
