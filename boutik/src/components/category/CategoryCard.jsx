@@ -3,10 +3,10 @@ import './categoryCard.css'
 
 const CategoryCard = ({title, image, description}) => {
 
-    
+     
     return (
 
-    <div className="card w-25 d-flex flex-column align-items-center m-auto mt-5">
+    <div className="card col-6 d-flex flex-column align-items-center m-auto mt-5">
         <img src={image} className="card-img-top " alt="..."/>
     <div className="card-body text-center">
         <h5 className="card-title">{title}</h5>
