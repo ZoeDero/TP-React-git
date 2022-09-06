@@ -1,5 +1,6 @@
 import React from 'react';
 import CategoryCard from '../../components/category/CategoryCard';
+import Switch from '../../components/switch/Switch';
 
 const HomeScreen = () => {
 
@@ -19,7 +20,10 @@ const HomeScreen = () => {
 
     return (
         <div>
-            <h1 className='text-center bg-dark text-light pb-1 '>La boutique de DEROZIER Zoé</h1>
+            <div className='d-flex justify-content-between ps-2 pe-2 text-center bg-dark text-light pb-1 '>
+            <h1 className=''>La boutique de DEROZIER Zoé</h1>
+            <Switch/>
+            </div>
             {/* <div className='d-flex'>
             <CategoryCard title={"Homme"} image={"./images/imghomme.jpg"} description={"La mode pour les hommes"}/>
             <CategoryCard title={"Femme"} image={"../images/imgFemme.jfif"} description={"La mode pour les Femmes"}/> */}

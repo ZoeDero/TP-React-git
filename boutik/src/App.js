@@ -9,12 +9,10 @@ import { useState } from 'react';
 function App() {
 
   const [isDark, setIsDark] = useState(false);
-  if(isDark){
-    App.className="bg-dark texte-light";
-}
+
 
   return (
-    <div className="App">
+    <div className={isDark? "bg-dark text-light" : "bg-light text-dark" }>
         <HomeScreen/>
         <ContactForm/>
     </div>
