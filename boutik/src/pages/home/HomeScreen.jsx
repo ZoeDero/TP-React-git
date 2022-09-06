@@ -26,7 +26,6 @@ const HomeScreen = () => {
             <div className="row ">
                 {catElement}
             </div>
-            {/* </div> */}
         </div>
     );
 };
